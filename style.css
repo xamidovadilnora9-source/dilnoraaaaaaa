@@ -1,0 +1,35 @@
+body{
+    max-width: 1500px;
+    margin: 20px auto;
+}
+h2{
+    margin-top: 40px;
+}
+table{
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    width: 100%;
+}
+th, td{
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+th{
+    background-color: #f0f0f0;
+}
+.chart-container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto 0 50px;
+}
+
+#groups{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.block{
+    display: flex;
+}
